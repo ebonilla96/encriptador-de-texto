@@ -20,7 +20,7 @@ main{
 .derecha{
     padding: 5px;
     text-align: center;
-    width: 25vw;
+    width: 30vw;
     display: inline;
     float: right;
     background: white;
@@ -48,15 +48,15 @@ main{
 }
 
 .encriptado{
-    width: 20vw;
-    height: 89vh;
+    width: 25vw;
+    height: 80vh;
     background: white;
 }
 
 .btn-en{
     margin: 5px;
     padding: 22px 0;
-    width: 48vh;
+    width: 25vh;
     background: #0A3871;
     color: white;
     font-size: 0.95em;
@@ -67,7 +67,7 @@ main{
 .btn-de{
     margin: 5px;
     padding: 22px 0;
-    width: 48vh;
+    width: 25vh;
     background: #D8DFE8;
     color: #0A3871;
     font-size: 0.95em;
@@ -78,7 +78,7 @@ main{
 
 footer{
     position: relative;
-    height: 10px;
+    height: 50px;
     margin-top: -10px;
     clear: both;
 }
