@@ -21,16 +21,18 @@
 
         <div class="izquierda">
             
-            <textarea class="encriptador" name="texto-encriptador" id="texto-encriptador" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea class="encriptador" name="texto-encriptador" id="texto-encriptador" placeholder="Ingrese el texto aqui" onkeypress="return alpha(event)" / ></textarea>
             <p>Solo letras minúsculas y sin acentos</p>
 
         </div>
 
         <div class="derecha">
             <textarea class="encriptado" name="encriptado" id="encriptado" placeholder="Ingresa el texto que desees encriptar o desencriptar. "></textarea>
+
             <div class="toolTip">
-                <button class="btn-en" id="btn-copiar"><span class="toolTipText" id="myToolTip">Copiar texto!</span> Copiar</button>
+                <button class="btn-copiar" id="btn-copiar" onmouseout="outFunc()"><span class="toolTipText" id="myToolTip">Copiar texto!</span>Copiar</button>
             </div>
+            
         </div>
 
         <div class="izquierda">

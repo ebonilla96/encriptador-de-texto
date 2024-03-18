@@ -35,8 +35,26 @@ function copiarTexto(){
     copiar.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(copiar.value);
 
+    var toolTip = document.getElementById("myToolTip");
+    toolTip.innerHTML = "Texto copiado!";
+
+}
+
+function outFunc(){
+
+    var toolTip = document.getElementById("myToolTip");
+    toolTip.innerHTML = "Copiar texto!";
 
 }
 
 var btnCopiar = document.querySelector("#btn-copiar");
 btnCopiar.onclick = copiarTexto;
+
+function alpha(e) {
+    var k;
+    document.all ? k = e.keyCode : k = e.which;
+    return ((k > 64 && k < 91) || (k > 96 && k < 123) || k == 8 || k == 32 || (k >= 48 && k <= 57));
+    
+
+}
+
