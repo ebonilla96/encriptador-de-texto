@@ -26,3 +26,17 @@ function desencriptar (){
 
 var btnDe = document.querySelector("#btn-desencriptar"); 
 btnDe.onclick = desencriptar;   
+
+
+function copiarTexto(){
+
+    var copiar = document.getElementById("encriptado");
+    copiar.select();
+    copiar.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copiar.value);
+
+
+}
+
+var btnCopiar = document.querySelector("#btn-copiar");
+btnCopiar.onclick = copiarTexto;

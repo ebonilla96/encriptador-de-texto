@@ -53,6 +53,15 @@ main{
     background: white;
 }
 
+.toolTip{
+    position: relative;
+    display: inline-block;
+}
+
+.toolTip .toolTipText {
+    visibility: hidden;
+}
+
 .btn-en{
     margin: 5px;
     padding: 22px 0;
@@ -77,6 +86,7 @@ main{
 }
 
 footer{
+
     position: relative;
     height: 50px;
     margin-top: -10px;
